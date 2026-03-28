@@ -1,0 +1,219 @@
+{
+    "intents": [
+  
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi", "Hello", "Hey", "Good morning", "Good evening",
+          "Is anyone there?", "Hi there", "Hello support"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there 👋 How may I help you?",
+          "Welcome! What can I do for you?"
+        ]
+      },
+  
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", "Goodbye", "See you", "Talk later",
+          "Thanks bye", "Exit"
+        ],
+        "responses": [
+          "Goodbye! Have a great day 😊",
+          "Thanks for contacting support!",
+          "See you again soon!"
+        ]
+      },
+  
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", "Thank you", "Thanks a lot",
+          "Appreciate it", "Helpful"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Happy to help 😄",
+          "Anytime!"
+        ]
+      },
+  
+      {
+        "tag": "account_issue",
+        "patterns": [
+          "I have an account issue",
+          "Problem with my account",
+          "Account not working",
+          "My account is blocked",
+          "Account suspended"
+        ],
+        "responses": [
+          "I can help with account issues. Can you describe the problem?",
+          "Sorry to hear that. What issue are you facing with your account?"
+        ]
+      },
+  
+      {
+        "tag": "login_issue",
+        "patterns": [
+          "I can't login",
+          "Login not working",
+          "Forgot my password",
+          "Unable to sign in",
+          "Password incorrect"
+        ],
+        "responses": [
+          "Please try resetting your password using the 'Forgot Password' option.",
+          "Are you receiving any error message while logging in?"
+        ]
+      },
+  
+      {
+        "tag": "payment_issue",
+        "patterns": [
+          "Payment failed",
+          "Money deducted but order not placed",
+          "Transaction error",
+          "Payment not successful",
+          "Debit card problem"
+        ],
+        "responses": [
+          "Payment issues can occur due to bank errors. Please wait 24 hours.",
+          "If money was deducted, it will be refunded automatically."
+        ]
+      },
+  
+      {
+        "tag": "refund",
+        "patterns": [
+          "I want a refund",
+          "Refund not received",
+          "When will I get my refund?",
+          "Refund status",
+          "Return money"
+        ],
+        "responses": [
+          "Refunds are processed within 5–7 business days.",
+          "Please share your order ID to check refund status."
+        ]
+      },
+  
+      {
+        "tag": "order_tracking",
+        "patterns": [
+          "Track my order",
+          "Where is my order?",
+          "Order status",
+          "Order not delivered",
+          "Shipment tracking"
+        ],
+        "responses": [
+          "Please provide your order ID to track the order.",
+          "Your order is currently in transit."
+        ]
+      },
+  
+      {
+        "tag": "technical_issue",
+        "patterns": [
+          "App is crashing",
+          "Website not working",
+          "Bug in the app",
+          "App not opening",
+          "Technical issue"
+        ],
+        "responses": [
+          "Please try clearing cache or reinstalling the app.",
+          "Our technical team is working on this issue."
+        ]
+      },
+  
+      {
+        "tag": "pricing",
+        "patterns": [
+          "What is the price?",
+          "Pricing details",
+          "Subscription cost",
+          "Is it free?",
+          "Plan details"
+        ],
+        "responses": [
+          "We offer both free and premium plans.",
+          "Pricing details are available on our website."
+        ]
+      },
+  
+      {
+        "tag": "working_hours",
+        "patterns": [
+          "Working hours",
+          "When are you available?",
+          "Customer support timing",
+          "Office hours"
+        ],
+        "responses": [
+          "Our support team is available 24/7.",
+          "We operate all days, including weekends."
+        ]
+      },
+  
+      {
+        "tag": "human_support",
+        "patterns": [
+          "Talk to human",
+          "Customer executive",
+          "Connect me to agent",
+          "Real person",
+          "Human support"
+        ],
+        "responses": [
+          "Connecting you to a support agent now.",
+          "Please wait while I transfer your chat."
+        ]
+      },
+  
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I want to complain",
+          "Bad service",
+          "Not satisfied",
+          "Worst experience",
+          "Very disappointed"
+        ],
+        "responses": [
+          "We're really sorry for the inconvenience.",
+          "Your feedback is important to us. Please share details."
+        ]
+      },
+  
+      {
+        "tag": "feedback",
+        "patterns": [
+          "I have feedback",
+          "Suggestion",
+          "Give feedback",
+          "Review"
+        ],
+        "responses": [
+          "We appreciate your feedback!",
+          "Thank you for helping us improve."
+        ]
+      },
+  
+      {
+        "tag": "fallback",
+        "patterns": [
+          "asdfgh", "random text", "I don't know",
+          "Something else", "???"
+        ],
+        "responses": [
+          "Sorry, I didn't understand that. Could you rephrase?",
+          "I'm still learning. Can you try asking differently?"
+        ]
+      }
+    ]
+  }
+  
