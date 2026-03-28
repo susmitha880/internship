@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h2>Ranked Candidates</h2>
+
+    {% if candidates %}
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Score</th>
+            <th>Skills</th>
+        </tr>
+
+        {% for candidate in candidates %}
+        <tr>
+            <td>{{ candidate.name }}</td>
+            <td>{{ candidate.email }}</td>
+            <td>{{ "%.2f"|format(candidate.score) }}</td>
+            <td>{{ candidate.skills }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <p>No candidates found.</p>
+    {% endif %}
+
+    <br><br>
+    <a href="/">Go Back</a>
+</body>
+</html>

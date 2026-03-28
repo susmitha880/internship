@@ -1,0 +1,6 @@
+flask
+spacy
+pymupdf
+scikit-learn
+pandas
+sqlalchemy
