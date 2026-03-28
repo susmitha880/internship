@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f2f2f2;
+        }
+        textarea {
+            width: 400px;
+            height: 120px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AI Sentiment Analysis</h1>
+
+    <form action="/predict" method="post">
+        <textarea name="text" placeholder="Enter text here"></textarea>
+        <br><br>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if prediction_text %}
+        <div class="result">
+            Result: {{ prediction_text }}
+        </div>
+    {% endif %}
+
+</body>
+</html>
